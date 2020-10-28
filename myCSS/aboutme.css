@@ -22,7 +22,7 @@ header span {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 14px;
     background-color: rgb(26, 75, 116);
-    border: rgb(26, 75, 116) solid 1px;
+    border: rgb(22, 71, 110) solid 1px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     text-align: center;
@@ -166,7 +166,7 @@ footer {
     text-align: center;
     font-size: 20pt;
     font-weight: bold;
-    border: rgb(26, 75, 116) solid 1px;
+    border: rgb(22, 71, 110) solid 1px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -177,7 +177,7 @@ footer span a{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 14px;
     background-color: rgb(26, 75, 116);
-    border: rgb(26, 75, 116) solid 1px;
+    border: rgb(22, 71, 110) solid 1px;
     border-radius: 5px 5px 5px 5px;
     text-align: center;
     margin-bottom: -10px;
