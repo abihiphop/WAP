@@ -4,18 +4,42 @@ body {
 
 header {
     background: white;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    color: rgb(26, 75, 116);
-    text-align: center;
-    font-size: 20pt;
-    font-weight: bold;
     border: rgb(26, 75, 116) solid 1px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
-header:hover {
-    color: slategray;
+header p {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: rgb(26, 75, 116);
+    text-align: center;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+header span {
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    background-color: rgb(26, 75, 116);
+    border: rgb(26, 75, 116) solid 1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+header span a {
+    text-decoration: none;
+    color: white;
+}
+
+header span a:hover {
+    text-decoration: underline;
+    color: rgb(172, 168, 168);
 }
 
 .bio {
@@ -30,19 +54,18 @@ header:hover {
     font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
     float: left;
     font-size: 40pt;
-    line-height: 0.65;
-    margin: 0.2em 0.1em 0.2em 0;
+    margin: 0em 0.1em 0.2em 0;
+     
 }
-
-header span {
-    color: green;
-    font-weight: bold;
-    font-style: italic;
-}
+ 
 
 nav {
     background: #eee;
     border: rgb(26, 75, 116) solid 1px;
+}
+
+nav p {
+    margin: 0.2em 0.1em 0.2em 0.2em;
 }
 
 .myLists {
@@ -57,27 +80,28 @@ nav {
     color: rgb(117, 25, 19);
     text-decoration: none;
 }
-.movies li a:hover{
-color:yellowgreen;
-text-decoration:underline;
+
+.movies li a:hover {
+    color: yellowgreen;
+    text-decoration: underline;
 }
 
-.movieDescription > li {
-    color:  rgb(26, 75, 116);
+.movieDescription>li {
+    color: rgb(26, 75, 116);
     font-family: "Comic Sans MS", cursive, sans-serif;
     list-style-type: none;
 }
 
 .movieDescription ul {
     list-style-type: none;
-    color: gray;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(43, 39, 39);
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .more1 {
     color: rgb(117, 25, 19);
-    font-family:fantasy;
-    
+    font-family: fantasy;
 }
 
 .moreOnTagline {
@@ -88,42 +112,54 @@ text-decoration:underline;
 .more1:hover .moreOnTagline {
     display: block;
     list-style-position: outside;
-    color: gray;
+    color: rgb(43, 39, 39);
     text-align: justify;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 
 .more2 {
     color: rgb(117, 25, 19);
-    font-family:fantasy;
+    font-family: fantasy;
 }
 
 #moreOnOutline {
     display: none;
     text-align: justify;
-   
 }
 
 .more2:hover #moreOnOutline {
     display: block;
     list-style-position: outside;
-    color: gray;
+    color: rgb(43, 39, 39);
     text-align: justify;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.moods li{
+.moods li {
     list-style-type: none;
-    display:inline;
+    display: inline;
 }
 
-.moods img{
+.moods img {
     height: 300px;
     width: 300px;
 }
 
-footer{
+.neighbours li {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: rgb(117, 25, 19);
+}
+
+.neighbours span {
+    font-style: italic;
+    font-family: cursive;
+    font-size: 11px;
+    color: rgb(54, 53, 53);
+}
+
+footer {
     background: white;
     font-family: "Comic Sans MS", cursive, sans-serif;
     color: rgb(26, 75, 116);
@@ -135,3 +171,19 @@ footer{
     border-bottom-right-radius: 20px;
 }
 
+footer span a{
+    color: white;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    background-color: rgb(26, 75, 116);
+    border: rgb(26, 75, 116) solid 1px;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    margin-bottom: -10px;
+    padding: 5px 10px 5px 10px;
+  
+    
+}
+
+ 
