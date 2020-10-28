@@ -118,3 +118,20 @@ text-decoration:underline;
     display:inline;
 }
 
+.moods img{
+    height: 300px;
+    width: 300px;
+}
+
+footer{
+    background: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: rgb(26, 75, 116);
+    text-align: center;
+    font-size: 20pt;
+    font-weight: bold;
+    border: rgb(26, 75, 116) solid 1px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
