@@ -19,7 +19,7 @@ header p {
 
 header span {
     color: white;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 14px;
     background-color: rgb(26, 75, 116);
     border: rgb(22, 71, 110) solid 1px;
@@ -29,7 +29,6 @@ header span {
     margin-left: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    
 }
 
 header span a {
@@ -55,9 +54,7 @@ header span a:hover {
     float: left;
     font-size: 40pt;
     margin: 0em 0.1em 0.2em 0;
-     
 }
- 
 
 nav {
     background: #eee;
@@ -171,17 +168,15 @@ footer {
     border-bottom-right-radius: 20px;
 }
 
-footer span a{
+footer span a {
     color: white;
     text-decoration: none;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 14px;
     background-color: rgb(26, 75, 116);
     border: rgb(22, 71, 110) solid 1px;
     border-radius: 5px 5px 5px 5px;
     text-align: center;
     margin-bottom: -10px;
-    padding: 5px 10px 5px 10px; 
+    padding: 5px 10px 5px 10px;
 }
-
- 

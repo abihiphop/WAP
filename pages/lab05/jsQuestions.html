@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jsImplementation.js">
+    </script>
+    <link rel="stylesheet" href="mycss.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h2> TEST FOR JAVA SCTIPT FUNCTIONS </h2>
+        <h3> <a href="../../index.html"> Home </a> </h3>
+        <div id="answerDisplay" class="answerDisplay">Your Result Will be Displayed Here</Div>
+        <div class="questions">
+            <table>
+                <tr>
+                    <td class="question1">
+                        <!-- =============================== Question Number 1 =============================== !-->
+                        <p> Question Number 1 </p>
+                        <input type="text" id="question1_1" placeholder="Number 1">
+                        <input type="text" id="question1_2" placeholder="Number 2">
+                        <input type="text" id="question1_3" placeholder="Expected">
+                        <Button
+                            onclick="mainFunction(
+                        'max('+document.getElementById('question1_1').value+','+document.getElementById('question1_2').value+')',
+                        document.getElementById('question1_3').value,
+                        function(){return maximum(document.getElementById('question1_1').value, document.getElementById('question1_2').value)});">
+                            Maximum
+                        </Button>
+
+                    </td>
+                    <td class="question2">
+                        <!-- =============================== Question Number 2 =============================== !-->
+                        <p> Question Number 2 </p>
+                        <input type="text" id="question2_1" placeholder="Number 1">
+                        <input type="text" id="question2_2" placeholder="Number 2">
+                        <input type="text" id="question2_3" placeholder="Number 3">
+                        <input type="text" id="question2_4" placeholder="Expected">
+                        <Button
+                            onclick="mainFunction(
+                        'maxOfThree('+document.getElementById('question2_1').value+','+document.getElementById('question2_2').value+','+document.getElementById('question2_3').value+')',
+                        document.getElementById('question2_4').value,
+                        function(){return maxOfThree(document.getElementById('question2_1').value, document.getElementById('question2_2').value,document.getElementById('question2_3').value)});">
+                            MaxOfThree
+                        </Button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="question3">
+                        <!-- =============================== Question Number 3 =============================== !-->
+                        <p> Question Number 3 </p>
+                        <input type="text" id="question3_1" placeholder="Char">
+                        <input type="text" id="question3_2" placeholder="Expected">
+                        <Button onclick="mainFunction(
+                        'isVoul('+document.getElementById('question3_1').value+')',
+                        document.getElementById('question3_2').value,
+                        function(){return isVoul(document.getElementById('question3_1').value)});">
+                            isVoul?
+                        </Button>
+
+                    </td>
+                    <td class="question4">
+                        <!-- =============================== Question Number 4 =============================== !-->
+                        <p> Question Number 4 </p>
+                        <input type="text" id="question4_1" placeholder="Array of nums comma separated">
+                        <input type="text" id="question4_2" placeholder="Expected">
+                        <Button onclick="mainFunction(
+                        'sumArray(['+document.getElementById('question4_1').value+'])',
+                        document.getElementById('question4_2').value,
+                        function(){return sumArray(document.getElementById('question4_1').value)});">
+                            Sum()
+                        </Button>
+
+                        <Button onclick="mainFunction(
+                    'multiplyArray(['+document.getElementById('question4_1').value+'])',
+                    document.getElementById('question4_2').value,
+                    function(){return multiplyArray(document.getElementById('question4_1').value)});">
+                            Multiply()
+                        </Button>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="question1">
+                        <!-- =============================== Question Number 5 =============================== !-->
+                        <p> Question Number 5 </p>
+                        <input type="text" id="question5_1" placeholder="String">
+                        <input type="text" id="question5_2" placeholder="Expected">
+                        <Button onclick="mainFunction(
+                        'reverse('+document.getElementById('question5_1').value+')',
+                        document.getElementById('question5_2').value,
+                        function(){return reverse(document.getElementById('question5_1').value)});">
+                            Reverse()
+                        </Button>
+
+                    </td>
+                    <td class="question2">
+                        <!-- =============================== Question Number 6 =============================== !-->
+                        <p> Question Number 6 </p>
+                        <input type="text" id="question6_1" placeholder="Array of strings comma separated">
+                        <input type="text" id="question6_2" placeholder="Expected">
+                        <Button onclick="mainFunction(
+                        'findLongestWord(['+document.getElementById('question6_1').value+'])',
+                        document.getElementById('question6_2').value,
+                        function(){return findLongestWord(document.getElementById('question6_1').value)});">
+                            LongestWord()
+                        </Button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="question1">
+                        <!-- =============================== Question Number 7 =============================== !-->
+                        <p> Question Number 7 </p>
+                        <input type="text" id="question7_1" placeholder="Array of strings comma separated">
+                        <input type="text" id="question7_2" placeholder="Length">
+                        <input type="text" id="question7_3" placeholder="Expected">
+                        <Button class="butt7"
+                            onclick="mainFunction(
+                        'filterLongWords('+document.getElementById('question7_1').value+','+document.getElementById('question7_2').value+')',
+                        document.getElementById('question7_3').value,
+                        function(){return filterLongWords(document.getElementById('question7_1').value, document.getElementById('question7_2').value)});">
+                            LongWords()
+                        </Button>
+
+                    </td>
+                    <td class="question8">
+                        <!-- =============================== Question Number 8 =============================== !-->
+                        <p> Question Number 8 </p>
+                        <input type="text" id="question8_1" placeholder="Array of strings comma separated">
+                        <input type="text" id="question8_2" placeholder="Expected result">
+                        <br>
+                        <Button class="butt8" onclick="mainFunction(
+                        'mulitply_by_10(['+document.getElementById('question8_1').value+'])',
+                        document.getElementById('question8_2').value,
+                        function(){return mulitply_by_10(document.getElementById('question8_1').value)});">
+                            Multiply()
+                        </Button>
+
+                        <Button onclick="mainFunction(
+                        'filter_elts_with_three(['+document.getElementById('question8_1').value+'])',
+                        document.getElementById('question8_2').value,
+                        function(){return filter_elts_with_three(document.getElementById('question8_1').value)});">
+                            Equals3()
+                        </Button>
+
+                        <Button onclick="mainFunction(
+                        'reduceToProduct(['+document.getElementById('question8_1').value+'])',
+                        document.getElementById('question8_2').value,
+                        function(){return reduceToProduct(document.getElementById('question8_1').value)});">
+                            Product()
+                        </Button>
+                    </td>
+                </tr>
+            </table>
+            <footer> &#169;ABRHA GEBRESLASSIE, Oct 2020 </footer>
+
+        </div>
+    </div>
+</body>
+
+</html>

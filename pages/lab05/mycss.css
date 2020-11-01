@@ -1,0 +1,82 @@
+.wrapper {
+    margin: 0px 100px 0px 100px;
+    background-color: azure;
+    border: solid 1px;
+    color: teal;
+    text-align: center;
+
+}
+
+h3 a {
+    text-decoration: none;
+    color: rgb(7, 73, 114);
+}
+h3 a:hover {
+    text-decoration: underline;
+    color: rgb(5, 85, 81);
+}
+
+.answerDisplay {
+    width: 90%;
+    height: 100px;
+    background-color: white;
+    margin: 10px 20px 20px 20px;
+    padding-top: 10px;
+
+}
+
+.questions table {
+    width: 100%;
+    border: none;
+
+}
+
+.questions td {
+    width: 50%;
+    height: 30px;
+    text-align: left;
+    background-color: rgba(0, 128, 128, 0.671);
+    border: none;
+
+}
+
+td p {
+    text-align: center;
+    background-color: rgba(0, 128, 128, 0.671);
+    margin: 0px;
+    height: 40px;
+    padding-top: 10px;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.0rem;
+}
+
+input {
+    width: 80px;
+    height: 25px;
+}
+
+button {
+    width: auto;
+    height: 30px;
+    background-color: rgba(206, 202, 202, 0.911);
+    border: thin 1px rgb(58, 57, 57);
+}
+
+#question4_1,
+#question6_1,
+#question7_1,
+#question7_3,
+#question8_1,
+#question8_2 {
+    width: 200px;
+}
+
+.butt7,.butt8 {
+    margin-left: 150px;
+}
+
+footer {
+    height: 30px;
+    padding-top: 20px;
+}
