@@ -1,0 +1,44 @@
+  
+  <!DOCTYPE html>
+<html>
+<body>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<script>
+  
+  function startTimer() {
+    var min = parseFloat(document.getElementById("field1").value);
+    var sec = parseFloat(document.getElementById("field2").value);
+    
+    var totalTime = min*60+sec;
+    var temp = totalTime;
+    var minutes, seconds;
+    var settter = setInterval(function () {
+        minutes = parseInt(totalTime / 60, 10)
+        seconds = parseInt(totalTime % 60, 10);
+       var percent = parseInt(100-totalTime*100/temp);
+       minutes = minutes < 10 ? "0" + minutes : minutes;
+       seconds = seconds < 10 ? "0" + seconds : seconds;  
+      document.getElementById("field1").value = minutes ;      
+      document.getElementById("field2").value = seconds ;    
+      document.getElementById("progress").style.width=percent+"%";
+      document.getElementById("progress").innerHTML=percent+"%";
+        if (--totalTime < 0) {
+   document.getElementById("field1").style.backgroundColor= "red";       
+      document.getElementById("field2").style.backgroundColor= "red";  
+      // totalTime = temp;
+          clearInterval(settter);
+        }
+    }, 100);
+}
+</script>
+
+<input type="text" id="field1"/> Min<br> <br>
+<input type="text" id="field2"/> Sec<br> <br>
+<button onclick="startTimer()">Start Timer</button>
+  <div class="progress">
+  <div class="progress-bar" id ="progress" style="width:0%">0%</div>
+</div>          <A></A>
+  <p> Please start the timer and will change the back ground to red when it reaches 00:00 !
+</body>
+</html>
